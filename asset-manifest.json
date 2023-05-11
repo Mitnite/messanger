@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/messanger/static/css/main.4ccc57c8.css",
+    "main.js": "/messanger/static/js/main.31c811ed.js",
+    "static/media/unnamed.jpg": "/messanger/static/media/unnamed.9520d0c6360b31f3fd59.jpg",
+    "index.html": "/messanger/index.html",
+    "main.4ccc57c8.css.map": "/messanger/static/css/main.4ccc57c8.css.map",
+    "main.31c811ed.js.map": "/messanger/static/js/main.31c811ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ccc57c8.css",
+    "static/js/main.31c811ed.js"
+  ]
+}
