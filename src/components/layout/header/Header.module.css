@@ -1,0 +1,73 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    background-color: rgba(74, 1, 136, 0.53);
+    box-shadow: 0 1px #ccc;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerContainer{
+    padding: 8px 0 8px 25px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .image-wrapper {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header .image-wrapper > img {
+    width: 30px;
+    height: 30px;
+}
+
+.header .image-wrapper > span {
+    color: black;
+    font-weight: 700;
+    margin-left: 10px;
+    display: block;
+}
+
+.header .wrapper {
+    height: 44px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 16px;
+    width: 25% ;
+    border-right: 30px;
+    background-color: #F1F7FA;
+    border-radius: 5px;
+}
+
+.header .wrapper > input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.header .wrapper > input::placeholder {
+    color: #607d9f;
+    font-weight: 400;
+}
+
+.header .wrapper > svg {
+    fill: #607d9f !important;
+
+}
+
+
+
+
